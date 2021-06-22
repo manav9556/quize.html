@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quize.css">
+    <title>Quize</title>
+</head>
+<body>
+    <div class="header">
+        <h1 class="h12">Quize On Web Dev</h1>
+    </div>
+    <div class="detail dis">
+        <h3>Details</h3>
+        <ul>
+            <li>The quiz contains questions of topic WEB DEVELOPMENT.</li>
+            <li>Each question carries 1 marks.</li>
+            <li>There are total of 10 questions to attempt.</li>
+            <li>Result will be displayed after the test along with answer key.</li>
+        </ul>
+        <input type="button" value="start" id="strt">
+    </div>
+
+   <div class="main-div  main">
+       
+       <div class="inner-div">
+           <h2 class="question">questions</h2>
+           <ul>
+            <li>
+            <input type="radio" name="answer" id="ans1" class="answer">
+            <label for="ans1" class="options" id="option1">question1</label>
+            </li>
+               <li>
+                <input type="radio" name="answer" id="ans2" class="answer">
+                <label for="ans2" class="options" id="option2">question1</label>
+                   </li>
+                   <li>
+                    <input type="radio" name="answer" id="ans3" class="answer">
+                    <label for="ans3" class="options" id="option3">question1</label>
+                       </li>
+                       <li>
+                        <input type="radio" name="answer" id="ans4" class="answer">
+                        <label for="ans4" class="options" id="option4">question1</label>
+                           </li>
+           </ul>
+           <button id="submit">Submit</button>
+           
+       </div>
+   </div>
+   <div class="score-area " id="score">
+       
+  
+   </div>
+   <button class="btn" onclick="location.reload()">Restatr</button>
+</body>
+<script src="quize.js" charset="utf-8"></script>
+</html>

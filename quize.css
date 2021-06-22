@@ -1,0 +1,111 @@
+body
+{
+    background-color: #B6E2D3;
+}
+.h12
+{
+    text-align: center;
+    margin-top: 5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    color: #EF7C8E;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.detail
+{
+    background-color: #FAE8E0;
+   text-align: center;
+    width: 40rem;
+    
+     
+   margin-left: 25%;
+ border: 2px;
+ border-style: groove;
+ box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+ justify-content: center;
+ align-items: center;
+ display: block;
+}
+#strt
+{
+    margin-left: 86%;
+    margin-top: 4px;
+    padding: 5px;
+    width: 5rem;
+    border-radius: 8px;
+}
+
+.main-div
+{
+    background-color: #FAE8E0;
+   margin-top: 10%;
+   width: 60%;
+    padding: 2rem;
+    height: 200px;
+  margin-left:15%;
+border: 2px;
+border-style: groove;
+box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+justify-content: center;
+align-items: center;
+
+display: none;
+}
+
+
+.question
+{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.options
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 4px;
+    font-size: 3.2erm;
+}
+
+li{
+    list-style: none;
+    text-decoration: none;
+}
+#next
+{
+   
+   border-radius: 6px;
+  width: 3rem;
+   background-color: #98D7C2;
+   
+}#submit
+{margin-left: 91%;
+    margin-top: 4px;
+   border-radius: 6px;
+  width: 5rem;
+  padding: 3px;
+  position: relative;
+   background-color: #98D7C2;
+}
+.score-area
+{
+    width:48%;
+    color: beige;
+    background-color:#3D5B59;
+    margin-left: 25%;
+  box-shadow: 11px 11px 11px 1px rgba(0, 0, 255, .2);;
+    height: 100px;
+    border-style: groove;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: azure;
+    display: none;
+
+}
+.btn
+{
+    margin-left: 40%;
+    margin-top: 4px;
+   border-radius: 6px;
+  width: 5rem;
+   background-color: #98D7C2; 
+   display: none;
+}
